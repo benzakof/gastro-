@@ -1,0 +1,31 @@
+.navbar{
+	position: fixed;
+	display: center;
+	backgroung-color: gris;
+	margin: 0px 10px 30px rgba(0,0,0,0.2);
+	width: 100%;
+	z-index: 1;
+}
+.navbar img{
+	width: 60px;
+	height:60px ;
+	margin: 20px;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	flex-grow: 1;
+	gap: 20px;
+	justify-content: safe flex-end;
+	margin: 20px;
+}
+.navbar li {
+	borfer-bottom: 'poppins', sans-serif;
+	color:rgb(50,50,50);
+	text-transform: uppercase;
+}
+.navbar li :hover{
+	border-bottom: 2px #FFC4E1 solid ;
+}
