@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital,wght@1,300&display=swap');
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/card.css');
+@import url('components/navbar.css');
+body{
+	background-color:#FFD07F;
+	font-size: 20px;
+	color: rgb(0,0,0);
+	font-family: 'Roboto', sans-serif;
+    border-radius: 50px;
+    margin: 50px;
+    padding: 1px;
+}
+
+h1;h2;h3 {
+	color :black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 25px; 
+    background-position: center;
+    margin: 50px;
+ 
+}
+a {
+	text-decoration: none;
+
